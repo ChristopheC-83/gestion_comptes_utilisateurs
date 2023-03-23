@@ -1,0 +1,369 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button, input, select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img, video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navContainer {
+  width: 90%;
+  max-width: 1200px;
+  margin: 15px auto;
+  height: 70px;
+  border: 1px solid #f1f1f1;
+  border-radius: 10px;
+  background-color: #eee;
+  color: #333;
+  box-shadow: 2px 2px 4px #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navContainer img,
+.navContainer i {
+  width: 40px;
+  margin-right: 40px;
+  font-size: 40px;
+}
+.navContainer ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.navContainer ul li {
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 33s;
+}
+.navContainer ul li:hover {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  font-weight: bold;
+}
+
+.footer {
+  border-color: #f1f1f1;
+  color: #333;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer h3 {
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(0deg, #333 8%, #f1f1f1 92%);
+}
+
+.page_title h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: yellowgreen;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  margin: 30px 0;
+}
+.page_title p, .page_title pre {
+  color: #c4c4c4;
+}
+
+.alert {
+  background-color: #b4b6b3;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 40px;
+  color: #333;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.alert-danger {
+  background-color: #f74d4d;
+}
+
+.alert-success {
+  background-color: #9cf752;
+}
+
+.alert-warning {
+  background-color: #f09104;
+}
+
+.accueil p {
+  color: white;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.page1 p {
+  color: #1a85ff;
+}
+
+.page2 p {
+  color: rgb(245, 255, 98);
+}
+
+.erreur p {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 25px;
+}
+
+.containerConnexion {
+  width: 100%;
+}
+.containerConnexion p {
+  color: moccasin;
+}
+.containerConnexion .entry_formulaire {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 30px auto;
+}
+.containerConnexion .entry_formulaire label {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+.containerConnexion .entry_formulaire input {
+  height: 40px;
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+}
+.containerConnexion button {
+  display: block;
+  width: 90%;
+  margin: 40px auto;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 50px;
+  transition: all 0.25s;
+}
+.containerConnexion button:hover {
+  background-color: #000;
+  color: white;
+}
+
+.profil #mail {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+.profil .div_cachee {
+  display: none;
+}
+.profil i {
+  color: blue;
+  font-size: 25px;
+}
+.profil button {
+  margin: 0 20px;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.25s;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px white;
+}
+.profil button:hover {
+  background-color: #000;
+  box-shadow: 2px 2px 2px #555;
+  color: white;
+}
+.profil button:hover i {
+  color: white;
+}
+.profil button:hover a {
+  color: white;
+}
+.profil .entry_formulaire {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 30px auto;
+}
+.profil .entry_formulaire label {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  margin-bottom: 20px;
+}
+.profil .entry_formulaire input {
+  height: 40px;
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+  width: 100%;
+}
+.profil .entry_formulaire button {
+  width: 100%;
+  margin: 20px auto;
+  box-shadow: none;
+}
+.profil .desactive {
+  pointer-events: none;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.profil #modifBtn {
+  width: 100px;
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.profil .btnModifMDP {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+  font-weight: bold;
+}
+.profil .alertPWD {
+  width: 90%;
+  padding: 10px 20px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(248, 107, 107);
+  color: black;
+  border-radius: 8px;
+  transition: all 0.75s;
+}
+.profil .alertPWD h3 {
+  font-weight: bold;
+}
+.profil .dnone {
+  display: none;
+  transition: all 0.75s;
+}
+.profil .btnSuppCompte {
+  background-color: rgb(235, 80, 80);
+  box-shadow: 2px 2px 4px red;
+  border: 4px solid red;
+  font-weight: bold;
+}
+
+.validationSupp {
+  background-color: rgb(235, 80, 80);
+  box-shadow: 2px 2px 4px red;
+  border: 4px solid red;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 390px;
+  height: 80px;
+  margin: 20px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  line-height: 25px;
+  cursor: pointer;
+}
+
+.dnone {
+  display: none;
+  transition: all 0.75s;
+}
+
+.imageEtModif {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.droits table {
+  width: 80%;
+  text-align: center;
+  color: #f1f1f1;
+  margin: 10px auto;
+  margin-top: 40px;
+}
+.droits th,
+.droits td,
+.droits tr {
+  padding: 15px;
+  border: 1px solid #f1f1f1;
+}
+
+body {
+  background-color: #333;
+}
+
+.app {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 90vh;
+  background-color: #333;
+  color: violet;
+  padding: 0 10px;
+}/*# sourceMappingURL=index.css.map */

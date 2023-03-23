@@ -1,0 +1,26 @@
+@import "./libs/reset";
+@import "./libs/variables";
+@import "./libs/mixins";
+@import "./sous-fichiers/navbar";
+@import "./sous-fichiers/common";
+@import "./sous-fichiers/alert";
+@import "./sous-fichiers/accueil";
+@import "./pages/page1";
+@import "./pages/page2";
+@import "./pages/erreur";
+@import "./pages/pageLogin";
+@import "./sous-fichiers/admin";
+
+body {
+  background-color: #333;
+}
+
+.app {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 90vh;
+  background-color: #333;
+  color: violet;
+  padding: 0 10px;
+}

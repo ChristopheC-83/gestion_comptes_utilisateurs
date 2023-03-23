@@ -1,0 +1,20 @@
+.alert {
+  background-color: #b4b6b3;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 40px;
+  color: #333;
+  font-weight: bold;
+  @include flexMid;
+  border-radius: 10px;
+}
+.alert-danger {
+  background-color: #f74d4d;
+}
+.alert-success {
+  background-color: #9cf752;
+}
+.alert-warning {
+  background-color: #f09104;
+}
